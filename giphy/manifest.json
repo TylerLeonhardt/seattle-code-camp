@@ -1,0 +1,23 @@
+{
+    "name": "Giphy demo",
+    "short_name": "Giphy ",
+    "version": "0.1.0",
+    "author": "Tyler Leonhardt",
+    "browser_action": {
+      "default_title": "Giphy demo",
+      "default_popup": "index.html"
+    },
+    "browser_specific_settings": {
+      "edge": {
+        "browser_action_next_to_addressbar": true
+      }
+    },
+    "content_security_policy": "script-src 'self' 'unsafe-eval' https://api.giphy.com/v1/gifs/search; object-src 'self'",
+    "description": "Search Giphy from your address bar",
+    "manifest_version": 2,
+    "permissions": [
+      "activeTab",
+      "tabs",
+      "https://api.giphy.com/v1/gifs/search"
+    ]
+  }

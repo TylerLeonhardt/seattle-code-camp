@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <script src="https://unpkg.com/vue"></script>
+    </head>
+    <body>
+        <div id="app">
+            {{message}}
+            <img src="http://i.imgur.com/FHo6au7.jpg?1" v-if="message == 'atlas'" />
+            <input v-model="message">
+        </div>
+        <script>
+            var app = new Vue({
+                el: '#app',
+                data: {
+                    message: 'Hello Vue!'
+                }
+            });
+        </script>
+    </body>
+</html>
