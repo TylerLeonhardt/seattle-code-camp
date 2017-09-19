@@ -1,6 +1,6 @@
 # A Browser Extension with Vue.js
 
-## Seattle Code Camp 2017
+## [Seattle Code Camp 2017](https://seattle.codecamp.us/)
 
 This repo contains all the code from my talk "A browser Extension with Vue.js" from Seattle Code Camp 2017.
 
